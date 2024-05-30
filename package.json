@@ -1,6 +1,6 @@
 {
   "name": "node-google-auth",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A set of common utility functions to authenticate google account",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -34,10 +34,13 @@
   },
   "homepage": "https://github.com/youknownix/node-google-auth#readme",
   "devDependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
     "@types/jest": "^29.5.5",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "google-auth-library": "^9.8.0",
+    "googleapis": "^134.0.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
